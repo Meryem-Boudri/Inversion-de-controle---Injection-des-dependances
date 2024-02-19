@@ -5,7 +5,7 @@ import ma.enset.DAO.IDao;
 public class IMetierImp implements IMetier {
     private IDao iDao; //Couplage faible
 
-    public void setiDao(IDao iDao) {
+    public void setDao(IDao iDao) {
         this.iDao = iDao;
     }
 
