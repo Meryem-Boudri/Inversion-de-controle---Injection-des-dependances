@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 public class DaoImp implements IDao{
     @Override
     public double getData() {
-        double temp=Math.random()*40;
-        return temp;
+        return Math.random()*40;
     }
 }

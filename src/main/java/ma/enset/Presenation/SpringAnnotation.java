@@ -1,6 +1,5 @@
 package ma.enset.Presenation;
 
-import ma.enset.DAO.IDao;
 import ma.enset.Metier.IMetier;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

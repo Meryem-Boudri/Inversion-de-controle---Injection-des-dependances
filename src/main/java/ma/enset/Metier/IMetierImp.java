@@ -19,7 +19,6 @@ public class IMetierImp implements IMetier {
     @Override
     public double calcul() {
         double tmp = iDao.getData();
-        double res = tmp * 540 / Math.cos(tmp * Math.PI);
-        return res;
+        return tmp * 540 / Math.cos(tmp * Math.PI);
     }
 }
